@@ -1,9 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 import {
-	default as NetflixSansBold,
-	default as NetflixSansLight,
-	default as NetflixSansMedium,
-	default as NetflixSansRegular,
+  default as NetflixSansBold,
+  default as NetflixSansLight,
+  default as NetflixSansMedium,
+  default as NetflixSansRegular,
 } from '../assets/netflix-sans-font/NetflixSans-Regular.woff2';
 import { Black } from './_colors';
 
@@ -14,6 +14,8 @@ const GlobalStyles = createGlobalStyle`
         padding: 0;
         min-height: 100vh;
         background-color: ${Black};
+        box-sizing: border-box;
+        font-family: 'Netflix Sans', sans-serif;
     }
 
     @font-face {
